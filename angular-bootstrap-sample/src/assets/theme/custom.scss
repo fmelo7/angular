@@ -1,0 +1,128 @@
+
+// project css
+body,html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  background: $dark;
+  color: $accent;
+  // font-family: 'Spectral SC', serif;
+  // font-family: 'Libre Baskerville', serif;
+  font-family: 'Roboto', sans-serif;
+  // font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: 'Spectral SC', serif; 
+  font-family: 'Libre Baskerville', serif;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  background: $gray-500;
+}
+
+section {
+  padding: 8rem 0; 
+}
+section .container {
+  background: $light;
+  opacity: 0.7;
+  padding: 2rem;
+}
+
+section,
+header {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  // height: 100vh;
+  min-height: 650px;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  color: $gray-900;
+  font-weight: 600;
+}
+
+header.masthead {
+  background-image: url("/assets/img/header.jpg");
+}
+header.masthead h1 {
+  font-size: 2rem; 
+}
+header.masthead p {
+  font-weight: 300; 
+}
+
+section#about {
+  background-image: url("/assets/img/hero-bg.jpg");
+}
+section#about h2 {
+  font-size: 2rem; 
+}
+section#about p {
+  font-weight: 300; 
+}
+
+section#services {
+  background-image: url("/assets/img/services-bg.jpg");
+}
+
+section#contact {
+  background-image: url("/assets/img/contact-bg.jpg");
+}
+section#contact a {
+  color: $gray-900;
+  font-weight: 600; 
+}
+
+#mainNav {
+  border-color: $dark;
+  background-color: $dark;
+  opacity: 0.7; 
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; 
+}
+#mainNav .navbar-toggler {
+  color: $primary;
+  border-color: $primary;
+}
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $primary;
+}
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: $white; 
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $gray-500; 
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: $white; 
+}
+
+section#portfolio {
+  background-image: url("/assets/img/portfolio/fullsize/6.jpg");
+}
+section#portfolio .grid {
+  border: solid 1px $gray-900;
+}
