@@ -35,7 +35,7 @@ $accent: #A8BAA9;
  // Bootstrap
 @import "~bootstrap/scss/bootstrap";
  // Custom Theme
-@import "~assets/theme/custom";
+@import "./assets/theme/custom";
  // Font Awesome
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
